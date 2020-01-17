@@ -88,7 +88,7 @@ int main() {
     }
     for (i=1; i<=n/2; i++){
         for (j=1; j<=n/2; j++){
-            if (mat[i][j] >= 'A' && mat[i][j] <= 'A'){
+            if (mat[i][j] >= 'A' && mat[i][j] <= 'Z'){
                 int p = mat[i][j] - 'A';
                 if (f[p] == 0){
                     mat[i][j] = '.';
@@ -111,7 +111,7 @@ int main() {
     }
     for (i=1; i<=n/2; i++){
         for (j=n/2+1; j<=n; j++){
-            if (mat[i][j] >= 'A' && mat[i][j] <= 'A'){
+            if (mat[i][j] >= 'A' && mat[i][j] <= 'Z'){
                 int p = mat[i][j] - 'A';
                 if (f[p] == 0){
                     mat[i][j] = '.';
@@ -134,7 +134,7 @@ int main() {
     }
     for (i=n/2+1; i<=n; i++){
         for (j=1; j<=n/2; j++){
-            if (mat[i][j] >= 'A' && mat[i][j] <= 'A'){
+            if (mat[i][j] >= 'A' && mat[i][j] <= 'Z'){
                 int p = mat[i][j] - 'A';
                 if (f[p] == 0){
                     mat[i][j] = '.';
@@ -157,7 +157,7 @@ int main() {
     }
     for (i=n/2+1; i<=n; i++){
         for (j=n/2+1; j<=n; j++){
-            if (mat[i][j] >= 'A' && mat[i][j] <= 'A'){
+            if (mat[i][j] >= 'A' && mat[i][j] <= 'Z'){
                 int p = mat[i][j] - 'A';
                 if (f[p] == 0){
                     mat[i][j] = '.';
